@@ -1,13 +1,9 @@
 # CutePets — Privacy Policy
 
-**Last updated:** _[DATE]_
-**Applies to:** CutePets for Windows, version 1.3.0 and later
-**Publisher:** _[YOUR COMPANY OR NAME]_
-**Contact:** _[SUPPORT EMAIL]_
-
-> This document is a template prepared for the Microsoft Store submission. Read
-> it, replace every _[BRACKETED]_ placeholder, and have it reviewed before you
-> publish it. It is not legal advice.
+**Last updated:** 8/17/2026
+**Applies to:** CutePets for Windows, version 1.4.0 and later
+**Publisher:** Technocrux
+**Contact:** alisufyanbutt@hotmail.com
 
 ## The short version
 
@@ -29,7 +25,7 @@ That file contains only the game state you created yourself:
 - their needs, coins and lifetime statistics;
 - memorials of pets that have passed on, and the family tree linking them;
 - your settings (graphics mode, aging speed, autostart, notification choices);
-- a record of which companion packs are unlocked on this installation.
+- app metadata such as onboarding/completion flags.
 
 There is no name, email address, location, contact list, document, photograph,
 browsing history or device identifier in that file. CutePets never reads any
@@ -39,21 +35,14 @@ other file on your computer.
 
 Nothing. CutePets makes no outbound network requests. It does not check for
 updates itself, does not load remote content, and does not contact any server
-operated by _[YOUR COMPANY OR NAME]_ — because no such server exists. The app's
+operated by technocrux — because no such server exists. The app's
 window security policy blocks remote connections outright; the only resources it
 loads are files bundled inside the app itself.
 
 ## Purchases
 
-CutePets offers two optional one-off purchases, the Friends Pack and the Premium
-Pack. **Those transactions are handled entirely by Microsoft.** CutePets asks
-Windows whether your Microsoft account owns a pack and receives a yes or a no.
-
-- We never see, receive or store your payment details, billing address, Microsoft
-  account name, or any part of your Microsoft account.
-- The only thing written to disk is a flag recording that a pack is unlocked.
-- Microsoft's own privacy statement governs the purchase itself:
-  <https://privacy.microsoft.com/privacystatement>
+Version 1 of CutePets has **no in-app purchases**. The app is a one-time Store
+purchase only.
 
 ## Notifications
 
@@ -79,7 +68,7 @@ links inside gameplay, no chat, and no user-to-user communication.
 
 Because we hold no data about you, there is nothing for us to export, correct or
 delete on your behalf under the GDPR, the UK GDPR, the CCPA or any comparable
-law. Your purchase record is held by Microsoft under their privacy statement.
+law.
 
 ## Third-party components
 
@@ -90,9 +79,9 @@ listed in `ATTRIBUTION.md`, shipped with the app.
 ## Changes to this policy
 
 If this policy ever changes, the updated version will be published at
-_[PRIVACY POLICY URL]_ and the "Last updated" date above will change. Material
+https://github.com/Technocrux/cutepets/blob/main/PRIVACY-POLICY.md and the "Last updated" date above will change. Material
 changes will also be noted in the Store listing's release notes.
 
 ## Contact
 
-Questions about privacy: _[SUPPORT EMAIL]_
+Questions about privacy: alisufyanbutt@hotmail.com
