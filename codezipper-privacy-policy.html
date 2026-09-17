@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeZipper Privacy Policy</title>
+<meta name="description" content="How CodeZipper for Windows handles your files, settings and cloud backup credentials.">
+<style>
+  :root { --bg: #ffffff; --text: #1b1f24; --muted: #57606a; --line: #d8dee4; --accent: #0f6cbd; --note: #f3f6fa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16181d; --text: #e6e8eb; --muted: #9aa4b1; --line: #2d333b; --accent: #6cb3ff; --note: #1e222a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 72px; }
+  h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; margin: 0 0 10px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin-bottom: 24px; }
+  .summary { background: var(--note); border: 1px solid var(--line); border-radius: 8px; padding: 16px 20px; margin: 24px 0; }
+  .summary p:last-child { margin-bottom: 0; }
+  code { font-family: "Cascadia Mono", Consolas, monospace; font-size: 0.9em; word-break: break-word; }
+</style>
+</head>
+<body>
+<main>
+  <h1>CodeZipper Privacy Policy</h1>
+  <p class="meta">Publisher: Technocrux, <a href="https://devride.com">Devride.com</a> · Effective date: September 17, 2026</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> CodeZipper works on your PC. It has no accounts, no analytics and no advertising, and Technocrux runs no servers that receive your files or personal data. Your code only leaves your PC when you choose to share it yourself or when you set up Cloud Backup to your own Amazon S3 or Azure storage.</p>
+  </div>
+
+  <p>This policy explains what the CodeZipper app for Windows (“CodeZipper”, “the app”), published by Technocrux, Devride.com (“Technocrux”, “we”), does with information. It applies to the app distributed through the Microsoft Store and to its add-ons: Stack Pack, AI Export, Security, Cloud Backup and the Everything bundle.</p>
+
+  <h2>Information the app processes on your PC</h2>
+  <ul>
+    <li><strong>Your project files.</strong> When you open a folder, CodeZipper reads file and folder names, sizes, <code>.gitignore</code> files and project files (such as <code>package.json</code>) to decide what to include. To create an archive, AI export or backup, it reads the contents of the files you selected. To check for secrets, it scans the text of those files for patterns such as API keys and passwords. All of this happens locally. File contents are not sent to Technocrux or anyone else.</li>
+    <li><strong>Archives and exports</strong> are written only to the location you choose, or to your backup folder, and copied to the clipboard only when you click Copy.</li>
+    <li><strong>Secret findings</strong> are shown to you in masked form while the app is open and are not stored.</li>
+  </ul>
+
+  <h2>Information the app stores</h2>
+  <ul>
+    <li><strong>Settings</strong> are saved in a settings file inside the app’s private Windows storage: your archive options, theme, language, tree filter, backup folder and the non-secret parts of your cloud backup setup (bucket or container name, region, endpoint, folder prefix and access key ID).</li>
+    <li><strong>Recent projects:</strong> the folder paths of up to eight projects you opened, when you opened them, and the frameworks detected in them, so the home screen can list them. You can remove any entry from the list.</li>
+    <li><strong>Cloud Backup credentials</strong> (S3 secret access keys, session tokens, Azure SAS URLs and connection strings) are stored only in the Windows Credential Locker on your PC, which Windows encrypts for your user account. They are never written to the settings file, never shown again after saving, and never sent anywhere except to the storage service they belong to.</li>
+  </ul>
+  <p>This information stays on your PC. You can delete saved credentials with <strong>Remove</strong> on the Backup page. Uninstalling CodeZipper deletes its settings file.</p>
+
+  <h2>When information leaves your PC</h2>
+  <ul>
+    <li><strong>Cloud Backup (optional add-on).</strong> If you set up Amazon S3, an S3-compatible service (for example Cloudflare R2, Backblaze B2, Wasabi or MinIO) or Azure Blob Storage, CodeZipper uploads your backup archives, and small “Test connection” files, directly from your PC to the bucket or container you configured. It uses the credentials you provided and the official Amazon and Microsoft software development kits, which send standard technical information (such as the SDK version) to that service. Technocrux never receives these files or credentials. The storage provider’s own privacy policy and terms apply to data stored there.</li>
+    <li><strong>Microsoft Store purchases and licensing.</strong> Trials, purchases, add-ons and license checks are handled by the Microsoft Store and your Microsoft account. The app asks the Store whether you own CodeZipper or an add-on; Technocrux does not receive your payment details. Microsoft’s <a href="https://privacy.microsoft.com/privacystatement">Privacy Statement</a> applies.</li>
+    <li><strong>Data Microsoft shares with developers.</strong> Through Partner Center, Microsoft provides app publishers with aggregated reports such as acquisitions, ratings and reviews, and crash and reliability data collected by Windows according to your Windows diagnostic data settings. Technocrux uses these reports only to maintain and improve CodeZipper.</li>
+    <li><strong>Sharing you do yourself.</strong> Archives, AI exports and backups you send to other people or services are handled by those recipients.</li>
+  </ul>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>No user accounts or sign-in to Technocrux.</li>
+    <li>No analytics, tracking, advertising or advertising identifiers.</li>
+    <li>No sale or sharing of personal information.</li>
+    <li>No uploading of your source code to Technocrux, including for the secret check and AI export features.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>CodeZipper is a developer tool for general audiences and is not directed at children. It does not knowingly collect personal information from anyone.</p>
+
+  <h2>Your choices and rights</h2>
+  <p>Because the app keeps your information on your own PC, you control it directly: remove recent projects from the home screen, remove cloud credentials on the Backup page, and uninstall the app to delete its settings. Files in your backup folder and cloud storage remain under your control and are not deleted by the app. If you have questions about information that Microsoft or your storage provider holds, contact them directly.</p>
+
+  <h2>Security</h2>
+  <p>Credentials are kept in the Windows Credential Locker, secrets found in your files are masked on screen and in error messages, and uploads use HTTPS (plain HTTP is only allowed for a storage emulator on your own PC). No method of storage or transfer is completely secure, so keep your storage keys private and use credentials limited to the bucket or container you back up to.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be published at this address with a new effective date. Significant changes will also be noted in the app’s release notes in the Microsoft Store.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or CodeZipper: Technocrux, <a href="https://devride.com">Devride.com</a> · <a href="mailto:privacy@example.com">privacy@example.com</a>.</p>
+</main>
+</body>
+</html>
